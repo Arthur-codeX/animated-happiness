@@ -57,3 +57,31 @@ For all create a variable first.Then console.log latter
    scene or part in the movie. USing back ticks
 4. Create a string to hold your favourite number
 */
+
+/*
+Boolean Datatype  
+is used to store only one of two states 
+true, false
+*/
+
+const iSingle = true;
+//const iSingle = "true";
+const hasACar = false;
+
+console.log(iSingle);
+console.log(hasACar);
+
+/*Test undefined*/
+/*Explicitly set a variable to undefined*/
+let thisIsUndefined = undefined;
+
+/*my var is undefined because 
+ you have not given it a value
+*/
+let myNewVar;
+
+console.log(thisIsUndefined);
+console.log(myNewVar);
+
+let myNullVariable = null;
+console.log(myNullVariable);
