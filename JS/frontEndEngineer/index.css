@@ -1,0 +1,12 @@
+/* Selecting html elements
+  by their tag name:element itself
+ 
+*/
+
+#secondh1 {
+  color: blue;
+}
+
+.cardp {
+  background-color: green;
+}

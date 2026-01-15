@@ -1,0 +1,70 @@
+Title:Tribute Page
+Description:
+Create a tribute page dedicated to a person,
+historical figure, or role model you admire. 
+Include a brief introduction, key accomplishments or contributions, and notable quotes if applicable. Use HTML headings and paragraphs
+to organize the content effectively.
+
+Steps 
+1.Create A folder inside Src:<important>
+  for me TributeProject
+2.Design:<React Developer> 
+  -Lego : Small pieces and organize them into one 
+         big piece and finaly you have 
+         whatever you are building
+  -House :stone,motar, sheets
+         Arrangment:<good>
+  -Tribute page:
+   APP: Hold eveything 
+       -Header component
+               -Title:Name
+               -Description:small info
+       -Main Section:evrything else
+             -Image Section
+             -Info Section
+                 -History
+                 -Facts
+3.Create folder strucure based design
+4.APP:Hold Everything
+     -Create a component:rules
+     -h1: App section
+       text:Tribute app comming soon
+     -Componet is exported
+       export default <NameOfComponent>
+       do it at the end of your file:Recommned
+     -Main.jsx import the App component 
+      And render it
+       ->ensure all your imports
+       are in the top of the file before
+       any other code:Imports come firstr
+       ->*you are importing
+        a file not a component:
+        whatever name you gave
+        your component is not important
+       ->ensure whenever you 
+       are doing your own file imports
+       start with './'
+       Signifies a relative path
+5.Focus On the Header Section
+  -Create a component:
+  -print header seciton comming soon
+  -Export it as default
+  -Import inside App component And Render It
+6.Focus on The Title And Description
+  -Create a title component:
+   have a h1 to show your favourite hero name
+  -Create a description component
+   give use bried info about your hero
+   h4:
+   -Ensure both componenents are exported
+   -Import them inside the Header.
+
+7.Main Section
+  -Create Image component:
+   find an image of your hero
+  -InfoSection
+    -Facts
+    -History
+  
+8.Finish the Facts
+  History
