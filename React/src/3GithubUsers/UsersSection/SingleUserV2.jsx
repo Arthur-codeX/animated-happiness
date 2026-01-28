@@ -1,5 +1,36 @@
+import { useEffect } from "react";
+
 function SingleUserV2(props) {
-  console.log("props are ", props);
+  /*
+   useEffect is a function
+   two inputs
+   @param1-> callback function 
+   Aparam2->Depency array:[]
+  */
+  /*
+  Life Cycle of acomponent
+ */
+
+  /*
+   1.When a component is Mounted
+  // Mounted when it compoes to exitance
+  //BirthDate
+  */
+  useEffect(() => {
+    console.log("component mounted");
+    console.log("use effect has run");
+  }, []);
+
+  /*
+    2 Usage to check when component 
+    is un mounted or dead
+   */
+  useEffect(() => {
+    return () => {
+      console.log("I am now Dead");
+    };
+  }, []);
+
   return (
     <div>
       <div>
