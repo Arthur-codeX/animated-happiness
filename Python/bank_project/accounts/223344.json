@@ -1,8 +1,1 @@
-{
-  "account_no": "223344",
-  "id_no": "223344",
-  "name": "John",
-  "transaction_history": [],
-  "balance": 0,
-  "password": "123456"
-}
+{"account_no": "223344", "id_no": "223344", "name": "daniel", "transaction_history": [], "balance": 0, "password": "123456"}
